@@ -1,0 +1,41 @@
+orange - #fb8f0e
+purple - #6600ff
+
+color: #32cd32;
+background-color: #7df9ff;
+opacity: 0.8;
+
+crimson red:
+color: #dc143c;
+background-color: #40e0d0;
+opacity: 0.7;
+
+goldenrod:
+color: #daa520;
+background-color: #00bfff;
+opacity: 0.6;
+
+orange red:
+color: #ff4500;
+background-color: #9370db;
+opacity: 0.5;
+
+tomato:
+color: #ff6347;
+background-color: #00ff7f;
+opacity: 0.4;
+
+dark orange:
+color: #ff8c00;
+background-color: #ba55d3;
+opacity: 0.3;
+
+gold:
+color: #ffd700;
+background-color: #1e90ff;
+opacity: 0.2;
+
+yellow:
+color: #ffff00;
+background-color: #ff69b4;
+opacity: 0.1;

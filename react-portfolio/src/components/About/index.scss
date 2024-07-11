@@ -1,0 +1,104 @@
+.stage-cube-cont {
+    width: 50%;
+    height: 100%;
+    top: 0;
+    padding-top: 18%;
+    margin-left: 0;
+    position: absolute;
+    right: 0;
+    // overflow: hidden;
+}
+
+.cubespinner {
+    animation-name: spincube;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 13s;
+    transform-style: preserve-3d;
+    transform-origin: 100px 100px 0;
+    margin-left: calc(50% - 100px);
+
+    div {
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        border: 1px solid #ccc;
+        background: rgba(255, 255, 255, 0.4);
+        text-align: center;
+        font-size: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 0 30px 0px lightyellow;
+    }
+
+    .face1 {
+        transform: translateZ(150px);
+        background-color: #26ff00b2;
+        // box-shadow: 0 0 40px 0px  #126d02e6;
+    }
+
+    .face2 {
+        transform: rotateY(90deg) translateZ(150px);
+        color: #dc143c;
+        background-color: #ebdc0784;
+        // box-shadow: 0 0 40px 0px  #bbbe06e0;
+    }
+
+    .face3 {
+        transform: rotateY(90deg) rotateX(90deg) translateZ(150px);
+        color: #e2aa1a;
+        background-color: #f0491b7e;
+        // box-shadow: 0 0 40px 0px  #e53d0fcb;
+    }
+
+    .face4 {
+        transform: rotateY(180deg) rotateZ(90deg) translateZ(150px);
+        color: #ffff00;
+        background-color: #ff69b4ac;
+        // box-shadow: 0 0 40px 0px  #ed298bac;
+
+    }
+
+    .face5 {
+        transform: rotateY(-90deg) rotateZ(90deg) translateZ(150px);
+        color: #ff6347;
+        background-color: #0073ff93;
+        // box-shadow: 0 0 40px 0px  #035eccdd;
+    }
+
+    .face6 {
+        transform: rotateX(-90deg) translateZ(150px);
+        color: #ffd700;
+        background-color: #1effd285;
+        // box-shadow: 0 0 40px 0px  #07d1a8f7;
+    }
+}
+
+@keyframes spincube {
+
+    from,
+    to {
+        transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+    }
+
+    16% {
+        transform: rotateY(-90deg) rotateZ(90deg);
+    }
+
+    33% {
+        transform: rotateY(-90deg) rotateX(90deg);
+    }
+
+    50% {
+        transform: rotateY(-180deg) rotateZ(90deg);
+    }
+
+    66% {
+        transform: rotateY(-270deg) rotateX(90deg);
+    }
+
+    83% {
+        transform: rotateX(90deg);
+    }
+}
