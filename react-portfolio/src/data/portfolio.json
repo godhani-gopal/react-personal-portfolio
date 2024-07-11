@@ -1,0 +1,16 @@
+{
+  "portfolio": [
+    {
+      "cover": "/portfolio/images/google-trends.png",
+      "title": "Google Trends REST APIs",
+      "description": "Java, Spring Boot,GCP BigQuery, OAuth 2.0, JWT, GCP BigQuery, MySQL",
+      "url": "http://google.com"
+    },
+    {
+      "cover": "/portfolio/images/work-in-progress.png",
+      "title": "Working on site updates",
+      "description": "adding, more, live, projects",
+      "url": "/portfolio"
+    }
+  ]
+}
